@@ -1,0 +1,46 @@
+:root {
+  --penn-blue: #091540;
+  --cornflower-blue: #7692FF;
+  --uranian-blue: #ABD2FA;
+  --yinmn-blue: #3D518C;
+  --persian-blue: #1B2CC1;
+}
+
+p,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVBAR */
+
+.nav-bar-row {
+  background-color: var(--penn-blue);
+  height: 4.5rem;
+  color: white;
+}
+
+.nav-bar-container {
+  position: fixed;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.resume-link {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+}
+
+.nav-left {
+  align-items: center;
+}
+
+.nav-right {
+  align-items: center;
+}
